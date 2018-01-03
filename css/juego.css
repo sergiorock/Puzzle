@@ -26,16 +26,40 @@ li::before {
   vertical-align: top;
 }
 .col-40 {
-  background: #FFF;
+  background: red;
   padding: 30px;
   color: #000;
 }
 
-#juego div {
+.pieza {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+}
 
+#instrucciones div {
+  background: red;
+}
+
+#tablero-juego {
   text-align: center;
   animation: fadein 2s;
+  background-color: green;
+  height: 600px;
+  width: 600px;
+  border: solid 1px yellow;
 }
+
+#tablero-juego div img{
+  width: 100%;
+  border: solid 1px yellow;
+
+}
+
+#footer div {
+  background-color: lightblue;
+}
+
 
 @keyframes fadein {
   from { opacity: 0; }
